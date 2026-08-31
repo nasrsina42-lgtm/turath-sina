@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="تراث سيناء - منصة رقمية للتاريخ والتراث والشخصيات والوثائق.">
+  <title>تراث سيناء | ذاكرة المكان والإنسان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="تراث سيناء">
+      <span class="brand-mark">س</span>
+      <span><strong>تراث سيناء</strong><small>ذاكرة المكان والإنسان</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+    <nav id="navLinks">
+      <a href="#home">الرئيسية</a>
+      <a href="#people">الشخصيات</a>
+      <a href="#tribes">القبائل</a>
+      <a href="#documents">الوثائق</a>
+      <a href="#timeline">الخط الزمني</a>
+      <a href="#about">عن المنصة</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="container hero-content">
+      <div class="eyebrow">منصة تاريخية رقمية</div>
+      <h1>نحفظ حكاية سيناء<br><span>بالمصدر والرواية والصورة</span></h1>
+      <p>موسوعة رقمية تجمع الشخصيات، القبائل، الوثائق، الصور، والقصص التاريخية مع توضيح درجة توثيق كل معلومة.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#people">استكشف الشخصيات</a>
+        <a class="btn ghost" href="#documents">تصفح الوثائق</a>
+      </div>
+      <div class="search-box">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="ابحث عن شخصية، قبيلة، مكان أو وثيقة..." aria-label="البحث">
+        <button id="searchBtn">بحث</button>
+      </div>
+      <div id="searchResults" class="search-results" hidden></div>
+    </div>
+  </section>
+
+  <section class="section" id="people">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="kicker">أعلام من الذاكرة</span><h2>الشخصيات التاريخية</h2></div>
+        <span class="badge">قيد التوثيق</span>
+      </div>
+      <div class="cards">
+        <article class="card featured">
+          <div class="card-icon">✦</div>
+          <div>
+            <span class="tag verified">ملف قيد التوثيق</span>
+            <h3>الشيخ سليمان أبو صيبع</h3>
+            <p>ملف تاريخي أولي لشخصية مرتبطة بتاريخ قبيلة الرميلات في رفح وسيناء.</p>
+            <div class="meta">رفح • سيناء المصرية</div>
+            <a class="card-link" href="#suleiman">فتح الملف ←</a>
+          </div>
+        </article>
+        <article class="card placeholder"><div class="card-icon">+</div><h3>شخصيات أخرى</h3><p>سيتم إضافة الشخصيات بعد مراجعة مصادرها.</p></article>
+        <article class="card placeholder"><div class="card-icon">+</div><h3>أضف شخصية</h3><p>قاعدة المنصة: المصدر أولًا، ثم النشر.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sand" id="suleiman">
+    <div class="container profile">
+      <div>
+        <span class="kicker">الملف الأول</span>
+        <h2>الشيخ سليمان أبو صيبع</h2>
+        <p class="lead">هذا القسم مصمم ليكون ملفًا تاريخيًا قابلًا للتحديث، وليس حكمًا نهائيًا على كل الروايات المتداولة.</p>
+        <div class="notice">تنبيه توثيقي: أي معلومة لا نملك لها مصدرًا منشورًا أو وثيقة قابلة للمراجعة ستُوسم كرواية أو معلومة تحتاج إلى تحقق.</div>
+      </div>
+      <div class="facts">
+        <div><b>المنطقة</b><span>رفح / سيناء</span></div>
+        <div><b>الانتماء</b><span>الرميلات</span></div>
+        <div><b>نوع الملف</b><span>بحث تاريخي</span></div>
+        <div><b>الحالة</b><span>قيد التوثيق</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tribes">
+    <div class="container">
+      <span class="kicker">النسيج الاجتماعي</span><h2>القبائل والعائلات</h2>
+      <div class="feature-grid">
+        <div class="feature"><span>🏜️</span><h3>الرميلات</h3><p>صفحة مستقلة تجمع التاريخ والروايات والمراجع والوثائق المرتبطة بالقبيلة.</p></div>
+        <div class="feature"><span>🧭</span><h3>المناطق</h3><p>ربط الشخصيات والقبائل بالمواقع التاريخية مع تجنب الادعاءات غير الموثقة.</p></div>
+        <div class="feature"><span>📖</span><h3>الرواية الشفوية</h3><p>حفظ الروايات المحلية مع وسمها بوضوح وفصلها عن المصادر المنشورة.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="documents">
+    <div class="container">
+      <span class="kicker">المادة الأصلية</span><h2>الوثائق والمصادر</h2>
+      <p class="section-intro">المصدر جزء من المعلومة. لكل سجل في المنصة خانة للمؤلف، العنوان، السنة، الصفحة، ورابط أو مكان الأرشيف عندما يتوفر.</p>
+      <div class="document-list">
+        <div class="doc"><b>كتاب / مرجع</b><span>اسم المصدر</span><em>سيُضاف بعد التحقق</em></div>
+        <div class="doc"><b>وثيقة أرشيفية</b><span>رقم الوثيقة</span><em>سيُضاف بعد التحقق</em></div>
+        <div class="doc"><b>صورة تاريخية</b><span>بيانات الصورة</span><em>سيُضاف بعد التحقق</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="timeline">
+    <div class="container">
+      <span class="kicker">الأحداث عبر الزمن</span><h2>الخط الزمني</h2>
+      <div class="timeline">
+        <div><b>الفترة الأولى</b><span>يُضاف الحدث بعد توثيق التاريخ والمصدر.</span></div>
+        <div><b>الفترة الثانية</b><span>ربط الحدث بالشخصيات والمناطق والوثائق.</span></div>
+        <div><b>الفترة الثالثة</b><span>مراجعة مستقلة قبل النشر.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container about-box">
+      <div><span class="kicker">منهجنا</span><h2>لا نخلط التاريخ بالرواية</h2></div>
+      <p>تراث سيناء مشروع يهدف إلى حفظ الذاكرة المحلية بصورة منظمة. سنميز بين: <strong>موثق بمصدر</strong>، <strong>وثيقة أصلية</strong>، <strong>رواية شفوية</strong>، و<strong>معلومة تحتاج إلى تحقق</strong>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer"><strong>تراث سيناء</strong><span>مشروع قيد التطوير © 2026</span></div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
